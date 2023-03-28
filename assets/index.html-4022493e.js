@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-149c3324","path":"/game/","title":"从左侧选择并查看游戏","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1676017335000,"contributors":[{"name":"zhang xiaoxu","email":"1172208932@qq.com","commits":2}]},"filePathRelative":"game/README.md"}');export{a as data};
