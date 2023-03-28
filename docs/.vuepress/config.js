@@ -20,6 +20,10 @@ export default defineUserConfig({
       {
         text: '前端相关',
         link: '/web',
+      },
+      {
+        text: '客户端相关',
+        link: '/client',
       }
     ],
     sidebar: {
@@ -48,21 +52,32 @@ export default defineUserConfig({
             text: '微信方法',
             link: '/web/wx-utils.md'
           },
-          {
-            text: 'H5跳转点播',
-            link: '/web/callUpApp.md'
-          }, {
+           {
             text: '新蓝网内部Axios二次封装',
             link: '/web/nb-axios.md'
           }, {
             text: '微信登录方法',
             link: '/web/wxpage.md'
           }, {
-            text: '客户端常用方法',
-            link: '/web/cztv-api.md'
-          }, {
             text: '发布订阅通信类',
             link: '/web/event-bus.md'
+          }
+          ],
+        }
+      ],
+      '/client': [
+        {
+          text: '客户端相关',
+          children: [
+          {
+            text: 'H5跳转点播',
+            link: '/client/callUpApp.md'
+          }, {
+            text: '客户端常用方法',
+            link: '/client/cztv-api.md'
+          }, {
+            text: '小程序跳转',
+            link: '/client/jumpMini.md'
           }
           ],
         }
